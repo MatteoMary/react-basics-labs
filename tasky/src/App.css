@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+input[type=text], input[type=date], .styled-select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 60%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+form {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,6 +47,19 @@ button {
   margin: 4px 6px;
   width: 50px;
   height: 25px;
+}
+
+.priority {
+  font-weight: bold;
+  color: #00ff37
+  
+}
+
+.deleteButton {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: red;
 }
 
 .doneButton {
