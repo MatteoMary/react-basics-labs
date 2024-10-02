@@ -21,6 +21,7 @@ function App() {
     title: "",
     description: "",
     deadline: ""
+    
   });
 
   const doneHandler = (taskIndex) => {
